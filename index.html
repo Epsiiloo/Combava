@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combava & David's Lemonade</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+
+<body>
+  <header>
+      <a href="#"><img alt="logo davids lemonade horizontal" src="./images/logo_horizontal.png"/></a>
+      <nav id="menu">
+        <ul>
+          <li><a href="#histoire">HISTOIRE</a></li>
+          <li><a href="#evenement">EVENEMENT</a></li>
+          <li><a href="#inscription">INSCRIPTION</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+  </header> 
+  <div id="main">
+    <img alt="grande image" src="images/image_grande.png"/>
+  </div>
+  <div id="histoire">
+    <div id="container_histoire">
+      <div id=texte_histoire>
+        <h1>Notre histoire ...</h1>
+        <p>L’association Combava vous propose aujourd’hui de découvrir et de savourer la citronnade d’antan. Nous serons présents partout en France pour vous faire partager nos produits locaux, identiques à ceux de l’époque.
+        </p>
+      </div>
+      <div id="image_histoire">
+        <img alt="image presentation 1" src="images/image_presentation_1.png"/>
+        <img alt="image presentation 2" src="images/image_presentation_2.png"/>
+      </div>
+    </div>
+  </div>  
+  <div id="presentation">
+    <div id="container_presentation">
+      <div id=texte_presentation>
+        <h1>... et nos produits</h1>
+        <p>Retrouvez le gout original et bio du citron du sud de la France. Nos boissons sont donc riches en Vitamine C, mais profitent également des bienfaits du citron, de par ses propriétés antibactériennes et anti-inflammatoires. Nos produits n’ont jamais été en contact avec quelconque produit chimique.
+        </p>
+      </div>
+      <div id="image_presentation">
+        <img alt="image presentation 1" src="images/photo_citron_jaune.jpg"/>
+      </div>
+    </div>
+  </div>
+  <div id="evenement">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1Pe2U5SUKPOiSYRfVGMSwrFIx7Ou0FSYL&hl=fr"></iframe>
+      <div id=texte_evenement>
+        <h1>Retrouvez nous</h1>
+        <p>Venez découvrir et déguster nos savoir-faire dans toute la France. Nos sites de dégustation se trouvent sur la carte à gauche ! Pour l'utiliser rien de plus simple, zoomé et dézoomé avec la molette, baladez-vous en maintenant le clic gauche.</p>
+      </div>
+    </div>
+  <div id="inscription">
+    <h1>Inscrivez vous</h1> 
+      <div id="formulaire"> 
+        <div class="formulaire">
+          <label>Civilité : </label>
+          <select name="civilite">
+            <option>Monsieur</option>
+            <option>Madame</option>
+          </select>
+          <br>
+        </div>
+        <div class="formulaire">
+          <label for="prenom">Prénom : </label>
+          <input type="text" name="prenom" id="prenom" required>
+        </div>
+            
+        <div class="formulaire">
+          <label for="email">Nom : </label>
+          <input type="text" name="nom" id="nom" required>
+        </div> 
+
+        <div class="formulaire">
+          <label for="email">Mail : </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="formulaire">
+          <label for="email">Téléphone : </label>
+          <input type="text" name="tel" id="tel" required>
+        </div>
+
+        <div class="formulaire">
+          <label>Indiquez l'événement : </label>
+          <select name="evenement">
+            <option>AMAP les Grand’Goules 3 Rue des Gravières, 86000 Grand Poitiers</option>
+            <option>AMAP Bio des 2 rives 1 Rue des Écoles, 37150 Civray-de-Touraine</option>
+            <option>Amap des Voiliers 21 Avenue du Champ de Mars, 17000 La Rochelle</option>
+            <option>Le Pompin'Ambour 37 Lotissement Parc de Cadouin, 33370 Pompignac</option> 
+            <option>AMAP BIO’RILLAC 27 Rue Antonin Dusserre, 15130 Arpajon-sur-Cère</option>
+            <option>AMAP 13 Rue du Chéry, 63350 Maringues</option>
+            <option>Pensees Bio 43 Avenue de la République, 46130 Biars-sur-Cère</option>
+            <option>Bio & Sens Montpellier C. Cial Les Portes du Soleil, parking aérien, Allée de l'Europe, 34990 Juvignac</option>
+            <option>Biossetan 4 Rue Paul Cézanne, 83330 Le Beausset</option>
+            <option>La Canopée 3 Allée de l'Île aux Moineaux, 25000 Besançon</option>
+            <option>Naturéo 37 Rue Herzog Logelbach, 68124 Wintzenheim</option>
+            <option>Rayons Verts 45 Cours Briand, 08000 Charleville-Mézières</option>
+            <option> BIOMONDE 14 Rue Saint-Patrice, 80000 Amiens</option>
+            <option>Bio c' Bon 116 Avenue d'Italie, 75013 Paris</option>
+            <option>Les Comptoirs de la Bio4 Avenue de Worms, 89000 Auxerre</option>
+          </select>
+        </div>
+
+        <div>
+          <input type="checkbox">
+          <label>Recevoir des informations supplémentaires</label>
+        </div>    
+
+        <div class="formulaire">
+          <input id="send" type="submit" value="Envoyer !">
+        </div>
+      </div>
+  </div>
+
+
+  <div id="separateur">
+    <img alt="image separateur" src="images/separateur.png"/>
+  </div>
+
+
+  <div id="contact">
+    <h1>Suivez nous</h1>
+
+    <div id="imagereseau">
+      <div class="wprock-img-zoom-hover">
+        <div class="wprock-img-zoom">
+          <a href="#"><img alt="image twitter" src="images/twitter.jpg"/></a>
+        </div>
+      </div>
+
+      <div class="wprock-img-zoom-hover">
+        <div class="wprock-img-zoom">
+          <a href="#"><img alt="image twitter" src="images/insta.jpg"/></a>
+        </div>
+      </div>
+
+      <div class="wprock-img-zoom-hover">
+        <div class="wprock-img-zoom">
+          <a href="#"><img alt="image twitter" src="images/fb.jpg"/></a>
+        </div>
+      </div>
+
+    </div>  
+  </div>
+
+  <footer>
+    <img id="logovertical" alt="logo davids lemonade vertical" src="images/logo_vertical.png"/>
+    <div id="lien">
+      <nav id="lien_interne">
+        <ul>
+          <li><a href="#histoire">HISTOIRE</a></li>
+          <li><a href="#evenement">EVENEMENT</a></li>
+          <li><a href="#inscription">INSCRIPTION</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <nav id="lien_externe">
+        <ul>
+          <li><a href="#">DONNEES PERSONNELLES</a></li>
+          <li><a href="#">MENTIONS LEGALES</a></li>
+          <li><a href="#">MENTIONS SANITAIRES</a></li>
+          <li><a href="http://combava.com/">COMBAVA</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

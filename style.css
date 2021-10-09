@@ -1,0 +1,529 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a:link 
+{ 
+ text-decoration:none; 
+ color: rgb(255, 255, 255);
+} 
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/* CSS Pour Mobile*/
+body{
+	background-color: white;
+}
+h1{
+	color:rgb(109,57,139);
+	text-align: center;
+	font-size: 50px;
+	font-family: "Pangolin";
+}
+label{
+	font-family: "Montserrat";
+}
+.intitule_menu{
+	font-family: "Retroica";
+}
+p{
+	color:white;
+}
+header {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header #menu ul{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-right: 10px;
+}
+header #menu ul li a{
+	color:rgb(0, 0, 0);
+	padding: 10px;
+}
+header #menu ul li{
+	font-family: Retroica;
+}
+header img{
+	display:none;
+}
+header #menu ul a:hover{
+	background-color: rgb(80, 131, 60);
+	border-radius: 360px;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+#main img{
+	width: 100%;
+}
+#histoire #image_histoire{
+	display:flex;
+	flex-direction: row;
+	padding:40px;
+}
+#histoire #image_histoire img{
+	padding-left:20px;
+}
+#histoire #container_histoire #texte_histoire {
+	padding:50px;
+	background-color: rgb(80, 131, 60);
+	max-width: 70%;
+	border-radius: 50px;
+}
+#histoire #container_histoire #texte_histoire{
+	font-family: "Montserrat";
+	font-size: 24px;
+	word-break:normal;
+	text-align:justify ;
+	
+}
+#histoire #container_histoire #texte_histoire h1 {
+	color:rgb(242, 229, 1);
+	text-align: center;
+	font-size: 50px;
+	font-family: "Pangolin";
+	white-space:normal;
+	padding-bottom: 20px;
+	float:left;
+	width:100%;
+}
+#histoire{
+	background-color: rgb(242, 229, 1);
+	padding:30px;
+}
+#histoire #container_histoire #texte_histoire:hover{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+	box-shadow: 11px 11px 0px  rgb(44, 71, 49);
+}
+#histoire #image_histoire{
+	display:flex;
+	flex-direction: column;
+}
+#histoire #container_histoire #texte_histoire h1 {
+	margin-right: 40px;
+}
+#histoire #container_histoire{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#presentation #image_presentation{
+	display:flex;
+	flex-direction: row;
+	padding:40px;
+}
+#presentation #image_presentation img{
+	padding-left:20px;
+	width: 90%;
+}
+#presentation #container_presentation #texte_presentation{
+	padding:50px;
+	background-color: rgb(80, 131, 60);
+	max-width: 70%;
+	border-radius: 50px;
+}
+#presentation #container_presentation #texte_presentation{
+	font-family: "Montserrat";
+	font-size: 24px;
+	word-break:normal;
+	text-align:justify ;
+	
+}
+#presentation #container_presentation #texte_presentation h1 {
+	color:rgb(242, 229, 1);
+	text-align: center;
+	font-size: 50px;
+	font-family: "Pangolin";
+
+	white-space:normal;
+	padding-bottom: 20px;
+	float:left;
+	width:100%;
+}
+#presentation{
+	background-color: #f3f3f3;
+	padding:30px;
+}
+#presentation #container_presentation #texte_presentation:hover{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+	box-shadow: 11px 11px 0px  rgb(44, 71, 49);
+}
+#presentation #image_presentation{
+	display:flex;
+	flex-direction: column;
+}
+#presentation #container_presentation #texte_presentation h1 {
+	margin-right: 40px;
+}
+#presentation #container_presentation{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#evenement{
+	background-color: rgb(242, 229, 1);
+}
+#evenement iframe{
+	padding:30px;
+}
+#evenement #texte_evenement p{
+	font-family: "Montserrat";
+	font-size: 24px;
+	word-break:normal;
+	display: inline-block;
+	text-align:justify ;
+	
+}
+#evenement #texte_evenement h1 {
+	color:rgb(80, 131, 60);
+	text-align: center;
+	font-size: 50px;
+	font-family: "Pangolin";
+	max-width: 100%;
+	float:right;
+	white-space: normal;
+	padding-bottom: 20px;
+	width:100%;
+}
+#evenement #texte_evenement:hover{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+	box-shadow: -11px 11px 0px rgb(255, 208, 0);
+}
+#evenement img{
+	width: 4%;
+}
+#evenement #texte_evenement {
+	padding:50px;
+	background-color: rgb(242, 229, 1);
+	max-width: 70%;
+	border-radius: 50px;
+}
+#evenement{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+	align-items: center;
+	background-color:rgb(80, 131, 60);
+	padding:30px;
+}
+#evenement iframe{
+	width:430px;
+	height:480px;
+	padding:20px;
+}
+#evenement #texte_evenement h1 {
+	padding-right: 20px;
+}
+#evenement #texte_evenement p{
+	color:black;
+
+}
+#separateur img{
+	width: 100%;
+}
+#inscription #formulaire{
+	background-color: rgb(242, 229, 1);
+	border-radius: 50px;
+	padding:50px;
+	max-width: 60%;
+	max-height: 20%;
+}
+#inscription #formulaire .formulaire{
+	padding:15px;
+	display:flex;
+	justify-content: center;
+}
+#inscription{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 40px;
+	background-color: rgb(80, 131, 60);
+}
+#inscription h1{
+	padding:20px;
+	font-family: "Pangolin";
+	color:rgb(242, 229, 1);
+}
+#inscription input{
+	margin-left:10px;
+}
+#inscription #formulaire:hover{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+	box-shadow: -11px 11px 0px rgb(255, 208, 0);
+}
+#inscription select{
+	margin-left:10px;
+	width: 200px;
+}
+#send{
+	background-color:rgb(80, 131, 60);
+	border-radius: 360px;
+	width: 150px;
+}
+#send:hover{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+	width: 250px;
+	background-color:rgb(201, 255, 166);
+}
+#contact{
+	background-color:rgb(242, 229, 1);
+}
+#contact h1{
+	padding:20px;
+	font-family: "Pangolin";
+	color:rgb(80, 131, 60);
+}
+#contact #imagereseau img{
+	display: flex;
+	justify-content: center;
+	padding:15px;
+	border-radius: 100px;
+}
+#contact #imagereseau{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding:15px;
+}
+.wprock-img-zoom-hover .wprock-img-zoom {
+	overflow: hidden;
+	position: relative; 
+}
+.wprock-img-zoom-hover .wprock-img-zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+.wprock-img-zoom-hover .wprock-img-zoom * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.wprock-img-zoom-hover:hover .wprock-img-zoom img {
+	-moz-transform: scale(1.06);
+	-webkit-transform: scale(1.06);
+	transform: scale(1.06);
+}
+footer{
+	height: 200px;
+	background-color:rgb(44, 71, 49);
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+footer nav ul a:hover{
+	color:rgb(242, 229, 1);
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+footer #logovertical{
+	width: 20%;
+}
+footer nav ul{
+	display:flex;
+	flex-direction: column;
+}
+footer #lien{
+	display:flex;
+	flex-direction: row;
+} 
+footer nav ul li{
+	padding:5px;
+	padding-right:25px;
+	font-family:Retroica ;
+}
+footer div #lien_interne{
+	border-right: 1px solid rgb(255, 255, 255);
+}
+
+/*CSS pour Tablette*/
+
+@media screen and (min-width:768px) and (max-width:1366px){
+	header img {
+		display:flex;
+		width: 55%;
+		padding:10px;
+	}
+	#histoire #image_histoire{
+		display:flex;
+		flex-direction: row;
+		padding:40px;
+	}
+	#presentation #container_presentation #image_presentation{
+		width: 60%;
+	}
+	#evenement{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		padding:30px;
+	}
+	#evenement iframe{
+		width:640px;
+		height:480px;
+	}
+	#evenement #texte_evenement {
+		padding:50px;
+		max-width: 35%;
+		border-radius: 50px;
+	}
+	#inscription select{
+		margin-left:10px;
+		width: 300px;
+	}
+	footer #logovertical{
+		width: 10%;
+	}
+	footer nav ul{
+		display:flex;
+		flex-direction: row;
+	}
+	footer nav ul li{
+		padding:20px;
+	}
+	footer div #lien_interne{
+		border-bottom: 1px solid rgb(255, 255, 255);
+		border-right: 0px solid rgb(255, 255, 255);
+	}
+	footer #lien{
+		display:flex;
+		flex-direction: column;
+	}
+}
+
+/* CSS Pour Desktop*/
+
+@media screen and (min-width:1366px) and (max-width:1920px){
+	header img {
+		display:flex;
+		width: 55%;
+		padding:10px;
+	}
+	#histoire #container_histoire{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#histoire #image_histoire{
+		display:flex;
+		flex-direction: row;
+		padding:40px;
+	}
+	#presentation #container_presentation{
+		display:flex;
+		flex-direction: row-reverse;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#evenement{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		padding:30px;
+	}
+	#evenement iframe{
+		width:640px;
+		height:480px;
+	}
+	#evenement #texte_evenement {
+		padding:50px;
+		max-width: 40%;
+		border-radius: 50px;
+	}
+	#inscription select{
+		margin-left:10px;
+		width: 500px;
+	}
+	footer #logovertical{
+		width: 10%;
+	}	
+	footer nav ul{
+		display:flex;
+		flex-direction: row;
+	}
+	footer nav ul li{
+		padding:20px;
+	}
+	footer div #lien_interne{
+		border-bottom: 1px solid rgb(255, 255, 255);
+		border-right: 0px solid rgb(255, 255, 255);
+	}
+	footer #lien{
+		display:flex;
+		flex-direction: column;
+	}
+}
